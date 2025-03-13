@@ -26,3 +26,25 @@ Array of Objects
 Polymorphism (Polimorfisme)
 
 - Komponen memiliki metode abstrak tampilkan_info() yang harus diimplementasikan oleh subclass.
+
+## -- Penjelasan Alur --
+
+Objek Komponen Dibuat
+
+- Objek CPU (Cpu), RAM (Ram), dan Harddrive (Harddrive) dibuat.
+
+Membuat Objek Komputer
+
+- Komputer dibuat dengan menyimpan objek CPU, Harddrive, dan beberapa RAM dalam list.
+
+Menambah RAM Secara Dinamis
+
+- RAM tambahan bisa ditambahkan menggunakan tambah_ram().
+
+Menampilkan Informasi Komputer
+
+- Metode tampilkan_info() akan mencetak detail CPU, RAM, dan Harddrive ke layar.
+
+## -- Dokumentasi saat Program di Jalankan --
+
+![1](https://github.com/marimoo0/TP3DPBO2025C2/blob/e1a3fba3b7a09e21f6561fdbcd2312bd02acb001/Hasil.png)
